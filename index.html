@@ -3,12 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Intel+One+Mono:ital,wght@0,300..700;1,300..700&family=Saira+Stencil:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>Crypto Quoter</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="title">
+        <h1>CRYPTO QUOTER</h1>
+    </div>
+    <hr>
     <div id="container">
-        <img src="Multimedia/undraw_bitcoin-p2-p_pykv.svg" alt="Bitcoin">
         <div id="coin-container">
             <form id="coin-form">
                 <div class="coin-input-container">
@@ -32,7 +38,7 @@
                     </select>
                 </div>
                 <div class="coin-input-container">
-                    <label for="amount">ELIGE TU MONTO</label>
+                    <label for="amount">ELIGE TU MONTO A PAGAR</label>
                     <input type="number" class="coin-input" id="amount" placeholder="Monto en cuestión">
                 </div>
                 <button type="submit" id="form-btn">COTIZAR</button>
@@ -41,12 +47,19 @@
                 <p class="info">El precio es: <span class="price">0.00</span>$</p>
                 <p class="info">El precio más alto es: <span class="price">0.00</span>$</p>
                 <p class="info">El precio más bajo es: <span class="price">0.00</span>$</p>
-                <p class="info">Variación en 24H: <span class="price">5.67%</span>$</p>
-                <p class="info">Puedes comprar: <span class="price">1.7</span> unidades</p>
+                <p class="info">Variación en 24H: <span class="price">00%</span></p>
+                <p class="info">Puedes comprar: <span class="price">0</span> unidades</p>
 
             </div>
         </div>
+        <img src="Multimedia/undraw_bitcoin-p2-p_pykv.svg" alt="Bitcoin">
+        <footer class="main-footer">
+        <p>Desarrollado por 
+        <a href="https://github.com/rfmgu18-dev/cotizador" target="_blank">Rubén Maldonado</a>
+    </p>
+    </footer>
     </div>
+    
 </body>
 <script src="scripts.js"></script>
 </html>

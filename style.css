@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil:wght@250;400;500&display=swap');
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+}
+
+h1, h2, p {
+    margin: 0;
+}
+
+
+.saira-stencil-font {
+  font-family: "Saira Stencil", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 250;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+body {
+    margin: 0;
+    background-color: oklch(18.391% 0.03085 277.128);
+    font-family: "Saira Stencil", sans-serif;
+}
+
+img {
+    width: 60%;
+    max-width: 700px;
+    object-fit: cover;
+}
+
+#container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+    padding-bottom: 140px;
+}
+
+#coin-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: min(100%, 540px);
+    padding: 30px;
+    background-color: rgba(28, 32, 41, 0.95);
+    border: 3px solid #2f36468a;
+    border-radius: 16px;
+}
+.title  {
+    border: 2px solid #141429;
+    border-radius: 25px;
+    padding: 32px 20px;
+    max-width: 1100px;
+    margin: 20px auto;
+    background: linear-gradient(25deg,rgba(0, 0, 0, 1) 24%, rgba(70, 150, 0, 0.9) 100%);
+    color: #faebd7;
+    text-align: center;
+    font-weight: 500;
+}
+.title h1 {
+    font-size: 3rem;
+    margin: 0;
+    letter-spacing: 0.18em;
+}
+label {
+    font-size: 25px;
+    font-weight: 500;
+}
+#coin-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 50;
+}
+.coin-input-container {
+color: antiquewhite;
+display: flex;
+flex-direction: column;
+gap: 5px;
+}
+.coin-input {
+    font-size: 18px;
+    font-weight: 500;
+    height: 40px;
+    padding: 50;
+    border-radius: 7px;
+    outline: none;
+    background-color: #0e0d0fa6;
+    color: antiquewhite;
+    font-weight: 3000px;
+}
+#form-btn {
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    height: 58px;
+    padding: 0 28px;
+    border-radius: 10px;
+    background-color: rgb(62, 133, 0);
+    border: #0d0d13 solid 2.5px;
+    color: #00001d;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+#form-btn:hover {
+    background-color: rgba(97, 206, 1, 1);
+    transform: scale(1.04);
+    box-shadow: 0 18px 35px rgba(0, 0, 0, 0.582), 0 0 0 1px rgba(255, 255, 255, 0.158);
+}
+#coin-info {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-size: 22px;
+    color: rgba(212, 204, 193, 0.856);
+}
+.price {
+    font-weight: 1000;
+}
+.loader {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  display: inline-block;
+  align-self: center;
+  border: 11px solid;
+  box-sizing: border-box;
+  animation: animloader 1s linear infinite alternate;
+}
+@keyframes animloader {
+  0% {
+    border-color: white rgba(255, 255, 255, 0) rgba(255, 255, 255, 0) rgba(255, 255, 255, 0);
+  }
+  33% {
+    border-color: white white rgba(255, 255, 255, 0) rgba(255, 255, 255, 0);
+  }
+  66% {
+    border-color: white white white rgba(255, 255, 255, 0);
+  }
+  100% {
+    border-color: white white white white;
+  }
+}
+
+.main-footer {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(15, 15, 15, 0.9);
+    color: #fff;
+    padding: 10px 18px;
+    border-radius: 999px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+    z-index: 1000;
+    max-width: calc(100% - 40px);
+    width: fit-content;
+}
+
+.main-footer p,
+.main-footer a {
+    color: #fff;
+    margin: 0;
+    font-size: 14px;
+}
+
+.main-footer a {
+    color: #69d34d;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.main-footer a:hover {
+    text-decoration: underline;
+}
+ 
