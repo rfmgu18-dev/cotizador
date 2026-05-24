@@ -27,15 +27,15 @@ form.addEventListener("submit", async event => {
 
         if(amountValue !== "") {
             const result = Number(amountValue) / response.RAW[cryptoSelected][coinSelected].PRICE;
-            coinInfo.innerHTML = `<p class="info">El precio del ${cryptoSelected} es de: <span class="price">${price}</span>$</p>
-                <p class="info">El precio más alto es: <span class="price">${high24h}</span>$</p>
-                <p class="info">El precio más bajo es: <span class="price">${low24h}</span>$</p>
+            coinInfo.innerHTML = `<p class="info">El precio del ${cryptoSelected} es de: <span class="price">${price}</span></p>
+                <p class="info">El precio más alto es: <span class="price">${high24h}</span></p>
+                <p class="info">El precio más bajo es: <span class="price">${low24h}</span></p>
                 <p class="info">Variación del ${cryptoSelected} en 24H: <span class="price">${porcent24h}%</span></p>
                 <p class="info">Puedes comprar: <span class="price">${result.toFixed(4)} ${cryptoSelected}</span> unidades</p>`;
         } else  {
-            coinInfo.innerHTML = `<p class="info">El precio del ${cryptoSelected} es de: <span class="price">${price}</span>$</p>
-                <p class="info">El precio más alto es: <span class="price">${high24h}</span>$</p>
-                <p class="info">El precio más bajo es: <span class="price">${low24h}</span>$</p>
+            coinInfo.innerHTML = `<p class="info">El precio del ${cryptoSelected} es de: <span class="price">${price}</span></p>
+                <p class="info">El precio más alto es: <span class="price">${high24h}</span></p>
+                <p class="info">El precio más bajo es: <span class="price">${low24h}</span></p>
                 <p class="info">Variación del ${cryptoSelected} en 24H: <span class="price">${porcent24h}%</span></p>`;
         }
 
