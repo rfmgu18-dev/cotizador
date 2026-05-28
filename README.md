@@ -13,7 +13,6 @@ El proyecto cuenta con:
 2. El cotizador en si
 3. Una imágen decorativa
 4. El recuadro con el link del repositorio
-<img width="637" height="647" alt="image" src="https://github.com/user-attachments/assets/c968bb95-1bd9-4280-91a9-220daecf948f" />
 _______________________________________________________
 ## ◻ Autor
 Desarrollado por Rubén Maldonado
