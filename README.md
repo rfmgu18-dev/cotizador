@@ -7,3 +7,4 @@ Este proyecto se basa en un cotizador de cryptomonedas, en la que escoges una mo
 | HTML   | Estructura semántica del código |
 | CSS   | Estilos, márgenes y diseño del código |
 | JS   | Lógica y funcionamiento del código |
+## <img width="300" height="186" alt="image" src="https://github.com/user-attachments/assets/848ce638-ca84-4bbe-888e-ea8be17aeb0a" />
