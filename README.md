@@ -7,4 +7,15 @@ Este proyecto se basa en un cotizador de cryptomonedas, en la que escoges una mo
 | HTML   | Estructura semántica del código |
 | CSS   | Estilos, márgenes y diseño del código |
 | JS   | Lógica y funcionamiento del código |
-## <img width="300" height="186" alt="image" src="https://github.com/user-attachments/assets/848ce638-ca84-4bbe-888e-ea8be17aeb0a" />
+## Primer Plano del Proyecto
+El proyecto cuenta con:
+1. Título principal
+2. El cotizador en si
+3. Una imágen decorativa
+4. El recuadro con el link del repositorio
+<img width="637" height="647" alt="image" src="https://github.com/user-attachments/assets/c968bb95-1bd9-4280-91a9-220daecf948f" />
+## ◻ Autor
+Desarrollado por Rubén Maldonado
+```python
+[GITHUB](https://github.com/rfmgu18-dev/cotizador)
+```
