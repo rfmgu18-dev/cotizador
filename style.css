@@ -45,31 +45,38 @@ img {
 }
 
 #coin-container {
+    position: relative;
     display: flex;
     flex-direction: column;
     gap: 20px;
     width: min(100%, 540px);
     padding: 30px;
-    background-color: rgba(28, 32, 41, 0.95);
-    border: 3px solid #2f36468a;
+    background-color: rgba(18, 22, 34, 0.96);
+    border: 1px solid rgba(125, 255, 100, 0.9);
     border-radius: 16px;
+    box-shadow: 0 0 30px rgba(125, 255, 100, 0.22),
+                inset 0 0 20px rgba(125, 255, 100, 0.08);
 }
 .title  {
-    border: 2px solid #141429;
+    border: 1px solid rgba(135, 255, 120, 0.85);
     border-radius: 25px;
     padding: 32px 20px;
     max-width: 1100px;
     margin: 20px auto;
-    background: linear-gradient(25deg,rgba(0, 0, 0, 1) 24%, rgba(70, 150, 0, 0.9) 100%);
-    color: #faebd7;
+    background: linear-gradient(135deg, rgba(7, 6, 15, 0.96), rgba(38, 129, 18, 0.55));
+    color: #f4f1e6;
     text-align: center;
-    font-weight: 500;
+    font-weight: 600;
+    box-shadow: 0 0 28px rgba(135, 255, 120, 0.18), inset 0 0 18px rgba(135, 255, 120, 0.08);
 }
 .title h1 {
     font-size: 3rem;
     margin: 0;
-    letter-spacing: 0.18em;
+    letter-spacing: 0.22em;
+    color: #f4f1e6;
+    text-shadow: 0 0 12px rgba(255, 255, 235, 0.85), 0 0 25px rgba(220, 220, 200, 0.35), 0 0 40px rgba(135, 255, 120, 0.18);
 }
+
 label {
     font-size: 25px;
     font-weight: 500;
@@ -105,19 +112,22 @@ gap: 5px;
     padding: 0 28px;
     border-radius: 10px;
     background-color: rgb(62, 133, 0);
-    border: #0d0d13 solid 2.5px;
-    color: #00001d;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    color: #000000;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
     display: inline-flex;
     align-items: center;
     justify-content: center;
     text-transform: uppercase;
+    box-shadow: 0 0 18px rgba(0, 0, 0, 0.35), inset 0 0 12px rgba(0, 0, 0, 0.15);
+    text-shadow: 0 0 6px rgba(218, 214, 178, 0.9), 0 0 14px rgba(194, 194, 145, 0.7), 0 0 24px rgba(159, 169, 114, 0.45);
 }
 #form-btn:hover {
-    background-color: rgba(97, 206, 1, 1);
-    transform: scale(1.04);
-    box-shadow: 0 18px 35px rgba(0, 0, 0, 0.582), 0 0 0 1px rgba(255, 255, 255, 0.158);
+    background-color: rgba(118, 232, 48, 1);
+    transform: scale(1.06);
+    box-shadow: 0 24px 48px rgba(0, 0, 0, 0.55), 0 0 28px rgba(0, 0, 0, 0.4), inset 0 0 18px rgba(0, 0, 0, 0.25);
+    text-shadow: 0 0 8px rgba(218, 214, 178, 1), 0 0 16px rgba(179, 183, 142, 0.9), 0 0 30px rgba(159, 169, 114, 0.75);
 }
 #coin-info {
     display: flex;
@@ -128,6 +138,7 @@ gap: 5px;
 }
 .price {
     font-weight: 1000;
+    text-shadow: 0 0 4px rgba(207, 217, 161, 0.55), 0 0 10px rgba(207, 217, 161, 0.18);
 }
 .loader {
   width: 58px;
