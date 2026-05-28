@@ -15,7 +15,5 @@ El proyecto cuenta con:
 4. El recuadro con el link del repositorio
 _______________________________________________________
 ## ◻ Autor
-Desarrollado por Rubén Maldonado
-```bash
+Desarrollado por Rubén Maldonado.
 [GITHUB](https://github.com/rfmgu18-dev/cotizador)
-```
