@@ -7,6 +7,7 @@ Este proyecto se basa en un cotizador de cryptomonedas, en la que escoges una mo
 | HTML   | Estructura semántica del código |
 | CSS   | Estilos, márgenes y diseño del código |
 | JS   | Lógica y funcionamiento del código |
+| API  | 
 ## Primer Plano del Proyecto
 El proyecto cuenta con:
 1. Título principal
